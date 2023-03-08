@@ -1,7 +1,7 @@
 from validacion import *
 from tkinter import Tk,Button,Frame,Label,Entry,messagebox
 
-def mostrarmensaje():
+def ingresar():
     messagebox.showinfo("Informacion","Te informo que todo fallo con exito")
     messagebox.showerror("Error","Perdon te falle!!")
     print(messagebox.askokcancel("Pregunta","Seguro que quieres a guardar algo"))
