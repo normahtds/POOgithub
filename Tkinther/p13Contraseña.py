@@ -1,7 +1,12 @@
 from tkinter import *
 import tkinter as tk
 
-
+def conprobarContra(contra):
+    largo = False
+    mayus = False
+    numer = False
+    if len(contra) > 8:
+        
 
 ventana= Tk()
 ventana.title("Verificacion de contraseñas")
