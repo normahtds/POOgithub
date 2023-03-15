@@ -1,6 +1,7 @@
 from tkinter import *
 import tkinter as tk
 
+
 ventana= Tk()
 ventana.title("Creacion de matriculas")
 ventana.geometry("500x250")
